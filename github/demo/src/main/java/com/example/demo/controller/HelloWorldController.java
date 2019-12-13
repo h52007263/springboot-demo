@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
     @RequestMapping("/hello")
     public String index() {
+        String str1 = "新增的分支上添加一个字符串";
         return "Hello World";
     }
 }
