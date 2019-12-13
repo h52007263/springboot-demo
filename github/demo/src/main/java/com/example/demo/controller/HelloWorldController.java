@@ -16,6 +16,7 @@ public class HelloWorldController {
     public String index() {
         String str1 = "新增的分支上添加一个字符串";
         String str2 = "新增的分支上添加第二个字符串";
+        String str3 = "新增的分支上添加第二个字符串";
         return "Hello World";
     }
 }
